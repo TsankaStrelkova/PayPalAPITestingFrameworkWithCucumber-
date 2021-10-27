@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PayPal">
+<!--  suite name="Suite" parallel="tests"-->
+
+  <test  name="RunCuke">
+    <classes>
+      <class name="com.melon.CucumberAPITestingFramework.cuke.runner.RunCuke"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+</suite> <!-- Suite -->
